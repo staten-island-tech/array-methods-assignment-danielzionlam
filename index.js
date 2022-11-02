@@ -37,7 +37,7 @@ console.log(literal);*/
 
 //functions
 
-function test() {
+/*function test() {
   console.log;
   ("This is a test");
 } //declare the function,
@@ -54,3 +54,37 @@ function add(x, y) {
   return x + y;
 }
 console.log(add(7, 9));
+const answer = add(7, 9);
+console.log(answer);*/
+
+/*//global scope
+const number = 7;
+function doA() {
+  //start function scope
+  const number = 8;
+  function doB() {
+    const test = "hello there";
+    console.log(number);
+  }
+  doB(); //step1
+  doB(); //step2
+  doB(); //step3
+  console.log(test);
+}
+
+doA();*/
+
+//Arrays it is a list
+// const arr = [3, 6, 9];
+
+// console.log(arr[0]); //0 index
+// console.log(arr[1]); //0 index
+// console.log(arr[2]); //0 index
+// console.log(arr[3]); //0 index
+
+const arr2 = [true, false, "yay!", [3, 6, 7], null, 9];
+//console.log(arr2.length);
+
+arr2.unshift(" pushed");
+arr2.pop();
+console.log(arr2);
