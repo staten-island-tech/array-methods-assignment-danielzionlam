@@ -86,5 +86,5 @@ const arr2 = [true, false, "yay!", [3, 6, 7], null, 9];
 //console.log(arr2.length);
 
 arr2.unshift(" pushed");
-arr2.pop();
+arr2.slice(2);
 console.log(arr2);
