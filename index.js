@@ -82,9 +82,25 @@ doA();*/
 // console.log(arr[2]); //0 index
 // console.log(arr[3]); //0 index
 
-const arr2 = [true, false, "yay!", [3, 6, 7], null, 9];
+/*const arr2 = [true, false, "yay!", [3, 6, 7], null, 9];
 //console.log(arr2.length);
 
 arr2.unshift(" pushed");
 arr2.slice(2);
-console.log(arr2);
+console.log(arr2);*/
+
+const arr = ["stick", [5, 12, 8], true, false];
+console.log(arr.length);
+
+console.log(arr[0]);
+arr.unshift("buzz");
+arr.slice(3);
+console.log(arr);
+arr.push("kiwi");
+console.log(arr[5]);
+
+const str = "Something came in the mail today! ";
+const response = "What?";
+const D = " >:)";
+const newStr = str + response + D;
+console.log(newStr);
