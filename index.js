@@ -89,18 +89,21 @@ arr2.unshift(" pushed");
 arr2.slice(2);
 console.log(arr2);*/
 
-const arr = ["stick", [5, 12, 8], true, false];
-console.log(arr.length);
+const arr = [{ saiyan: "Goku", numbers: [5, 12, 8] }, true, false];
 
+// const arr = [[5, 12, 8], "stick", "a", true, false];
+// const str = "Hello, my name is";
+// const name = "Mike.";
+// const greet = "How are you today?";
+// const newStr = str + name + greet;
+
+arr.forEach((index) => console.log(index));
+arr.forEach((index) => console.log(index));
+
+console.log(arr.length);
 console.log(arr[0]);
 arr.unshift("buzz");
 arr.slice(3);
 console.log(arr);
 arr.push("kiwi");
 console.log(arr[5]);
-
-const str = "Something came in the mail today! ";
-const response = "What?";
-const D = " >:)";
-const newStr = str + response + D;
-console.log(newStr);
