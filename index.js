@@ -97,12 +97,8 @@ const arr = [{ saiyan: "Goku", numbers: [5, 12, 8] }, true, false];
 // const greet = "How are you today?";
 // const newStr = str + name + greet;
 
-arr.forEach((index) => console.log(index));
+arr.forEach((array) => console.log(array));
 
-console.log(arr.length);
-console.log(arr[0]);
-arr.unshift("buzz");
-arr.slice(3);
-console.log(arr);
-arr.push("kiwi");
-console.log(arr[5]);
+const result = arr.filter((arr) => arr.length > 3);
+
+console.log(result);
