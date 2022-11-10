@@ -98,7 +98,6 @@ const arr = [{ saiyan: "Goku", numbers: [5, 12, 8] }, true, false];
 // const newStr = str + name + greet;
 
 arr.forEach((index) => console.log(index));
-arr.forEach((index) => console.log(index));
 
 console.log(arr.length);
 console.log(arr[0]);
