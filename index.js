@@ -53,17 +53,7 @@ arr.forEach((arr) => {
   console.log(arr.name);
 });
 
-arr.forEach((arr) => {
-  console.log(arr.animal);
-});
-
-arr.forEach((arr) => {
-  console.log(arr.numbers);
-});
-
-arr.forEach((arr) => {
-  console.log(arr.powerlevel);
-});
+arr.forEach((numbers) => console.log(numbers));
 
 const filteredArr = arr.filter((arr) => {
   return arr.powerlevel <= 999999;
