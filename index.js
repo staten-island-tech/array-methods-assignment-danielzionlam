@@ -53,7 +53,9 @@ arr.forEach((arr) => {
   console.log(arr.name);
 });
 
-arr.forEach((numbers) => console.log(numbers));
+arr.forEach((arr) => {
+  console.log(arr.numbers);
+});
 
 const filteredArr = arr.filter((arr) => {
   return arr.powerlevel <= 999999;
