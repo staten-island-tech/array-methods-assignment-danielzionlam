@@ -54,7 +54,9 @@ arr.forEach((arr) => {
 });
 
 arr.forEach((arr) => {
-  console.log(arr.numbers);
+  arr.numbers.forEach((numbers) => {
+    console.log(numbers);
+  });
 });
 
 const filteredArr = arr.filter((arr) => {
